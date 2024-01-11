@@ -1,0 +1,39 @@
+/*
+PALETTE COLORI
+#042A2B
+#2176AE
+#66CED6
+#FCF7F8
+#F5F0F6
+
+NOMI COLORI PRECISI
+#042A2B - Dark Jungle Green
+#2176AE - Rich Electric Blue
+#66CED6 - Medium Turquoise
+#FCF7F8 - Ghost White
+#F5F0F6 - Lavender Blush
+
+VARIABLES
+
+*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+    --darkJungleGreen: #042A2B;
+    --richElectricBlue: #2176AE;
+    --mediumTurquoise: #66CED6;
+    --ghostWhite: #FCF7F8;
+    --lavenderBlush: #F5F0F6;
+}
+
+body {
+    background-color: var(--darkJungleGreen);
+    color: var(--ghostWhite);
+    margin: 0;
+}
+
+.motd {
+    background-color: var(--richElectricBlue);
+    padding: 10px;
+    text-align: center;
+}
