@@ -54,7 +54,6 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 1em 2em;
-    margin: 1em;
 }
 
 .socials {
@@ -105,11 +104,11 @@ canvas {
 
 @media screen and (max-width: 600px) {
     .type-writer {
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
     header {
-        padding: 0.2em;
+        padding: 1em;
     }
 
     .socials {
@@ -117,7 +116,7 @@ canvas {
     }
 
     .socials a {
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
     
 }
