@@ -104,7 +104,7 @@ canvas {
 
 @media screen and (max-width: 600px) {
     .type-writer {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 
     header {
@@ -116,7 +116,7 @@ canvas {
     }
 
     .socials a {
-        font-size: 1.1em;
+        font-size: 0.7em;
     }
     
 }
