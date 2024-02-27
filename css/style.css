@@ -53,7 +53,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 1em 2em;
+    padding: 2em 3em;
 }
 
 .socials {
@@ -69,7 +69,7 @@ header {
     align-items: center;
     color: var(--ghostWhite);
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.4em;
     transition: color 0.3s;
     
 }
@@ -93,6 +93,7 @@ header {
     animation: 
         typing 3.5s steps(40, end),
         blink-caret .75s step-end infinite;
+    font-size: 2.5em;
 }
 
 canvas {
