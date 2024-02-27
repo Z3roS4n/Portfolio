@@ -1,15 +1,16 @@
 class TextAnimations {
+    presentation = "I'm Antonio Murabito,<br>your ";
     typeWriter(element, phrases = [], speed) {
         let i = 0, j = 0, currentPhrase = '', isDeleting = false;
         const typing = () => {
             if(i < phrases.length) {
                 if(j <= phrases[i].length && !isDeleting) {
                     currentPhrase = phrases[i].substring(0, j);
-                    element.innerHTML = currentPhrase + '|';
+                    element.innerHTML = this.presentation + currentPhrase + '|';
                     j++;
                 } else if(j >= 0 && isDeleting) {
                     currentPhrase = phrases[i].substring(0, j);
-                    element.innerHTML = currentPhrase + '|';
+                    element.innerHTML = this.presentation + currentPhrase + '|';
                     j--;
                 } else {
                     isDeleting = !isDeleting;
@@ -29,4 +30,4 @@ class TextAnimations {
 
 const Animations = new TextAnimations();
 
-Animations.typeWriter(document.querySelector('.type-writer'), ['Web Developer', 'Photographer', 'Designer'], 100);
+Animations.typeWriter(document.querySelector('.type-writer'), ['Web Developer.', 'Photographer.', 'Designer.', 'Translator.'], 135);

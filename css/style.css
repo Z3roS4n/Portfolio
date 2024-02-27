@@ -27,18 +27,96 @@ VARIABLES
 }
 
 body {
-    background-color: var(--darkJungleGreen);
     color: var(--ghostWhite);
     margin: 0;
+    background: #318CFE; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.background {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(10, 12, 12, 0.7);
+}
+
+header {
+    background-color: rgba(10, 12, 12, 0.7);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1em 2em;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.socials a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--ghostWhite);
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: color 0.3s;
+    
+}
+
+.socials a:hover {
+    color: var(--richElectricBlue);
+}
+
+.socials svg {
+    width: 1.5em;
+    height: 1.5em;
+    fill: var(--ghostWhite);
+    margin: 0 0.2em;
 }
 
 .type-writer {
     overflow: hidden; /* Hide the text */
-    border-right: .15em solid var(--mediumTurquoise); /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
         typing 3.5s steps(40, end),
         blink-caret .75s step-end infinite;
+}
+
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+    z-index: -1;
+}
+
+@media screen and (max-width: 600px) {
+    .type-writer {
+        font-size: 1.5em;
+    }
+
+    header {
+        padding: 1em;
+    }
+
+    .socials {
+        margin-top: 1em;
+    }
+
+    .socials a {
+        font-size: 1.1em;
+    }
+    
 }
