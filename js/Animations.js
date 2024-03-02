@@ -29,4 +29,4 @@ class TextAnimations {
 
 const Animations = new TextAnimations();
 
-Animations.typeWriter(document.querySelector('.type-writer'), ['Web Developer.', 'Photographer.', 'Designer.', 'Translator.'], 135);
+Animations.typeWriter(document.querySelector('.type-writer'), ['Web Developer.', 'Photographer.', 'Tech Support.', 'Translator.', 'Photo Editor.'], 135);
