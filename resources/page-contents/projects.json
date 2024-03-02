@@ -1,0 +1,12 @@
+{
+    "projects": {
+        "zerogpt": {
+            "name": "Project 1",
+            "description": "This is project 1",
+            "status": "active",
+            "link": "https://www.google.com",
+            "image_src": "https://www.google.com",
+            "tags": ["tag1", "tag2"]
+        }
+    }
+}

@@ -14,9 +14,8 @@ class TextAnimations {
                     j--;
                 } else {
                     isDeleting = !isDeleting;
-                    if(!isDeleting) {
+                    if(!isDeleting)
                         i++;
-                    }
                 }
             } else
                 i = 0;

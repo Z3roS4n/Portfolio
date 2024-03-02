@@ -26,34 +26,48 @@ VARIABLES
     --lavenderBlush: #F5F0F6;
 }
 
-body {
+html, body {
     color: var(--ghostWhite);
     margin: 0;
-    background: #318CFE; 
     font-family: 'Montserrat', sans-serif;
-}
-
-.background {
-    top: 0;
-    left: 0;
-    width: 100%;
     height: 100%;
-    z-index: 10;
-    background-color: rgba(10, 12, 12, 0.7);
+    width: 100%;
+    overflow: scroll;
 }
 
-header {
+#canvas {
+	position: absolute;
+	display: block;
+    height: 100%;
+    width: 100%;
+    background: #222;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+div.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+div.container {
     background-color: rgba(10, 12, 12, 0.7);
+    width: 75%;
     border-radius: 16px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 2em 3em;
+    padding: 1.4em 2em;
+    margin: 1em;
+}
+
+.container-title {
+    text-align: center;
 }
 
 .socials {
@@ -85,6 +99,14 @@ header {
     margin: 0 0.2em;
 }
 
+.about {
+    font-size: 1.5em;
+}
+
+.projects {
+    font-size: 1.5em;
+}
+
 .type-writer {
     overflow: hidden; /* Hide the text */
     white-space: nowrap; /* Keeps the content on a single line */
@@ -103,6 +125,7 @@ canvas {
     z-index: -1;
 }
 
+
 @media screen and (max-width: 600px) {
     .type-writer {
         font-size: 1.5em;
@@ -114,10 +137,30 @@ canvas {
 
     .socials {
         margin-top: 1em;
+        position: fixed;
+        bottom: 1.8em;
+        width: 65%;
+        justify-content: space-around;
+        background-color: rgba(10, 12, 12, 0.7);
+        padding: 0.7em 1em;
+        border-radius: 16px;
+        font-size: 1.3em;
     }
 
     .socials a {
         font-size: 0.8em;
+    }
+
+    .socials-text {
+        display: none;
+    }
+
+    .about {
+        font-size: 1em;
+    }
+
+    .projects {
+        font-size: 1em;
     }
     
 }
