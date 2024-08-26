@@ -35,6 +35,7 @@ body {
     line-height: 1.6;
     color: var(--clr-neutral-a40);
     background: var(--clr-neutral-a0);
+    margin: 0 auto;
 }
 
 
@@ -58,7 +59,6 @@ header nav {
 header nav ul {
     display: flex;
     list-style: none;
-    margin-left: 5rem;
 }
 
 header nav ul li {
@@ -136,7 +136,7 @@ section#skills {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 2rem 4rem;
+
 }
 
 section#skills .container {
@@ -152,13 +152,83 @@ section#skills .container ul {
 
 section#skills .container li {
     display: flex;
-    margin: 3rem;
+
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
+
 /*PROGRESS BAR SKILLS*/
+
+section#skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+section#skills .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem 4rem;
+    width: 70%;
+}
+
+section#skills .container .skill {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0;
+    justify-content: space-between;
+    width: 100%;
+    span {
+        font-weight: 700;
+        color: var(--clr-primary-a0);
+        margin-right: 1em;
+    }
+}
+
+.bar-container {
+    background: var(--clr-neutral-a10);
+    width: 40%;
+    border-radius: 35px;
+}
+
+.bar {
+    text-align: right;
+    color: var(--clr-neutral-a0);
+    border-radius: 35px;
+}
+
+.per-20 {
+    background: var(--clr-primary-a0);
+    width: 20%;
+}
+
+.bar .per-40 {
+    background: var(--clr-primary-a0);
+    width: 40%;
+}
+
+.per-60 {
+    background: var(--clr-primary-a0);
+    width: 60%;
+}
+
+.per-80 {
+    background: var(--clr-primary-a0);
+    width: 80%;
+}
+
+.per-100 {
+    background: var(--clr-primary-a0);
+    width: 100%;
+}
+
+
+/*
 .wrap-circles {
     display: flex;
     min-height: 100vh;
@@ -208,3 +278,5 @@ section#skills .container li {
     font-weight: 300;
     color: rgba(255, 255, 255, 0.75);
 }
+
+*/
