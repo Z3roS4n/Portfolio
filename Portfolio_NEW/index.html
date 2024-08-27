@@ -11,24 +11,39 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
+            <ul class="desktop">
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#about">About</a></li>
             </ul>
             <div class="hero">
                 <h1>Antonio Murabito</h1>
             </div>
-            <ul>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <ul class="desktop">
+                <li><a href="#portfolio" class="workingProgress">Portfolio</a></li>
+                <li><a href="#contact" class="workingProgress">Contact</a></li>
             </ul>
+
+            <div class="mobile">
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#portfolio" class="workingProgress">Portfolio</a>
+                <a href="#contact" class="workingProgress">Contact</a>
+            </div>
         </nav>
     </header>
 
     <section id="about">
         <div class="container">
-            <h2>About Me</h2>
-            <p>Studente con una forte propensione al lavoro efficiente, altamente competente in molti ambiti informatici, compreso l’Editing e la Fotografia digitale (DLSR, Mirrorless); con ottime capacità di apprendimento e adattamento a qualsiasi situazione. </p>
+            <h2>Qualcosa su di me...</h2>
+            <p>
+                Sono uno studente con una forte propensione al lavoro efficiente, altamente competente in molti ambiti informatici, 
+                compreso l’Editing e la Fotografia digitale (DLSR, Mirrorless); 
+                Nel corso della mia vita ho sviluppato una forte passione per la tecnologia e l’informatica, 
+                che mi ha portato a intraprendere la strada della specializzazione in ambito informatico
+                e al conseguimento (in corso) del diploma di Perito Informatico; <br>
+                Mi ritengo una persona analitica, proiettata al problem solving e al lavoro in gruppo, capace di adattarsi alla 
+                stragrande maggioranza delle situazioni, soprattutto grazie alle mie skills di apprendimento rapido.
+            </p>
             <div class="contacts">
                 <a href="mailto:antoniomurabito4@gmail.com">
                     <i class="fa-regular fa-envelope"></i>
@@ -53,12 +68,25 @@
 
         <article id="links">
             <div class="container-2">
-                <h2>Links</h2>
                 <div class="links">
-                    <a href="#">
+                    <a href="http://www.github.com/Z3roS4n">
                         <i class="fa-brands fa-github"></i>
                         <span>
                             GitHub
+                        </span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/z3ros4n/">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <span>
+                            Linkedin
+                        </span>
+                    </a>
+
+                    <a href="https://www.instagram.com/subZero.nef/">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>
+                            Instagram
                         </span>
                     </a>
                 </div>
@@ -68,40 +96,47 @@
 
     <section id="skills">
         <div class="container">
-            <h2>Skills</h2>
+            <h2>Competenze</h2>
 
             <div class="skill">
-                <span>Photoshop</span>
+                <span><i class="fa-solid fa-language"></i></i> Lingua Inglese</span>
                 <div class="bar-container">
-                    <div class="bar per-60">60%</div>
+                    <div class="bar per-60">Intermedio</div>
                 </div>
             </div>
 
             <div class="skill">
-                <span>Lightroom</span>
+                <span><i class="fa-solid fa-photo-film"></i> Photoshop & Lightroom</span>
                 <div class="bar-container">
-                    <div class="bar per-100">100%</div>
+                    <div class="bar per-60">Intermedio</div>
                 </div>
             </div>
 
             <div class="skill">
-                <span>CSS</span>
+                <span><i class="fa-brands fa-html5"></i> HTML, <i class="fa-brands fa-css3-alt"></i> CSS</span>
                 <div class="bar-container">
-                    <div class="bar per-80">80%</div>
+                    <div class="bar per-80">Avanzato</div>
                 </div>
             </div>
 
             <div class="skill">
-                <span>PHP</span>
+                <span><i class="fa-brands fa-js"></i> JS, <i class="fa-brands fa-node-js"></i> NODE</span>
                 <div class="bar-container">
-                    <div class="bar per-60">60%</div>
+                    <div class="bar per-80">Avanzato</div>
                 </div>
             </div>
 
             <div class="skill">
-                <span>MySQL</span>
+                <span><i class="fa-brands fa-php"></i> PHP, <i class="fa-solid fa-database"></i> SQL</span>
                 <div class="bar-container">
-                    <div class="bar per-60">60%</div>   
+                    <div class="bar per-60">Intermedio</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span><i class="fa-brands fa-python"></i> Python</span>
+                <div class="bar-container">
+                    <div class="bar per-40">Principiante</div>
                 </div>
             </div>
 
@@ -109,6 +144,73 @@
 
     </section>
 
-    <script src="js/Animations.js"></script>
+    <section id="experience">
+        <div class="container">
+            <h2>Esperienze</h2>
+            <div class="experience">
+
+                <div class="job">
+                    <h3>Web Developer</h3>
+                    <span>Freelancer</span>
+                    <span>2021 - ATTUALE</span>
+                    <p>
+                        Dal 2021 sono un web developer freelancer, mi sono sempre 
+                        occupato, per passione, di sviluppo informatico per conto di 
+                        privati, mediante Telegram, Discord e Instagram. 
+                    </p>
+                </div>
+
+                <div class="job">
+                    <h3>Editor</h3>
+                    <span>Freelancer</span>
+                    <span>2023 - ATTUALE</span>
+                    <p>
+                        Da oltre un anno mi occupo di editing fotografico per conto di 
+                        terzi, mediante piattaforme freelance come Fiverr, e soprattutto tramite
+                        social media. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <section>
+            <div class="container-2">
+                <div class="contacts">
+                    <a href="mailto:antoniomurabito4@gmail.com">
+                        <i class="fa-regular fa-envelope"></i>
+                        <span>
+                            Email
+                        </span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/z3ros4n/">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <span>
+                            Linkedin
+                        </span>
+                    </a>
+                    <a href="https://www.instagram.com/subZero.nef/">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>
+                            Instagram
+                        </span>
+                    </a>
+                    <a href="https://github.com/Z3roS4n">
+                        <i class="fa-brands fa-github"></i>
+                        <span>
+                            GitHub
+                        </span>
+                    </a>
+                </div>
+            </div> 
+            <div class="container">
+                Designed and Builded with <i class="fa-solid fa-heart"></i> by Antonio Murabito
+            </div>
+        </section>
+
+    </footer>
+
+    <!-- <script src="js/Animations.js"></script> -->
 </body>
 </html>

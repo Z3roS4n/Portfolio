@@ -1,5 +1,5 @@
 class TextAnimations {
-    presentation = "";
+    presentation = "I'm Antonio Murabito,<br>your ";
     typeWriter(element, phrases = [], speed) {
         let i = 0, j = 0, currentPhrase = '', isDeleting = false;
         const typing = () => {

@@ -1,0 +1,166 @@
+/*
+PALETTE COLORI
+#042A2B
+#2176AE
+#66CED6
+#FCF7F8
+#F5F0F6
+
+NOMI COLORI PRECISI
+#042A2B - Dark Jungle Green
+#2176AE - Rich Electric Blue
+#66CED6 - Medium Turquoise
+#FCF7F8 - Ghost White
+#F5F0F6 - Lavender Blush
+
+VARIABLES
+
+*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+    --darkJungleGreen: #042A2B;
+    --richElectricBlue: #2176AE;
+    --mediumTurquoise: #66CED6;
+    --ghostWhite: #FCF7F8;
+    --lavenderBlush: #F5F0F6;
+}
+
+html, body {
+    color: var(--ghostWhite);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+#canvas {
+	position: absolute;
+	display: block;
+    height: 100%;
+    width: 100%;
+    background: #222;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+div.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+div.container {
+    background-color: rgba(10, 12, 12, 0.7);
+    width: 75%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.4em 2em;
+    margin: 1em;
+}
+
+.container-title {
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.socials a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--ghostWhite);
+    text-decoration: none;
+    font-size: 1.4em;
+    transition: color 0.3s;
+    
+}
+
+.socials a:hover {
+    color: var(--richElectricBlue);
+}
+
+.socials svg {
+    width: 1.5em;
+    height: 1.5em;
+    fill: var(--ghostWhite);
+    margin: 0 0.2em;
+}
+
+.about {
+    font-size: 1.5em;
+}
+
+.projects {
+    font-size: 1.5em;
+}
+
+.type-writer {
+    overflow: hidden; /* Hide the text */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+    font-size: 2.5em;
+}
+
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+    z-index: -1;
+}
+
+
+@media screen and (max-width: 600px) {
+    .type-writer {
+        font-size: 1.2em;
+    }
+
+    header {
+        padding: 1em;
+    }
+
+    .socials {
+        margin-top: 1em;
+        position: fixed;
+        bottom: 1.8em;
+        width: 65%;
+        justify-content: space-around;
+        background-color: rgba(10, 12, 12, 0.7);
+        padding: 0.7em 1em;
+        border-radius: 16px;
+        font-size: 1.3em;
+    }
+
+    .socials a {
+        font-size: 0.8em;
+    }
+
+    .socials-text {
+        display: none;
+    }
+
+    .about {
+        font-size: 1em;
+    }
+
+    .projects {
+        font-size: 1em;
+    }
+    
+}
