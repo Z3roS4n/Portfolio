@@ -320,7 +320,39 @@ footer.contacts a {
     margin-right: 1em;
 }
 
+/* PORTFOLIO PAGE portfolio.html */
 
+/* PHOTO GALLERY */
+section#photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+section#photo .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+
+section#photo .container .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    justify-content: space-between;
+    width: 100%;
+}
+
+section#photo .gallery-element {
+    width: 30%;
+    margin: 1rem 0;
+    border-radius: 15px;
+    border: #000000 1px solid;
+}
 
 /* MOBILE */
 
