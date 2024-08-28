@@ -1,0 +1,39 @@
+{
+    "gallery": [
+        {
+            "id": 1,
+            "title": "500 Lire",
+            "description": "Foto di una moneta da 500 Lire Italiane scattata con una Sony A6000.",
+            "image": "./assets/images/500_Lira_1_Sony.jpg",
+            "alt": "500 Lire"
+        },
+        { 
+            "id": 2,
+            "title": "Blacky",
+            "description": "Foto di un gatto nero scattata con una Nikon D800 + 24-70mm F2.8.",
+            "image": "./assets/images/Blacky_1_Nikon.jpg",
+            "alt": "Blacky"
+        },
+        { 
+            "id": 3,
+            "title": "Gatto di Petralia",
+            "description": "Foto di un gatto scattata a Petralia Soprana con una Nikon D800 + 24-70mm F2.8.",
+            "image": "./assets/images/CatPetralia_1_Nikon.jpg",
+            "alt": "Petralia Cat"
+        },
+        { 
+            "id": 4,
+            "title": "Cielo Nuvoloso",
+            "description": "Foto di un cielo nuvoloso scattata a Pioppo con una Nikon D800 + 24-70mm F2.8.",
+            "image": "./assets/images/Landscape_Sky_Pioppo_1_Nikon.jpg",
+            "alt": "Cloudy Sky"
+        },
+        { 
+            "id": 5,
+            "title": "Sentiero nella Natura",
+            "description": "Foto di un sentiero nella natura scattata a Pioppo con una Nikon D800 + 24-70mm F2.8.",
+            "image": "./assets/images/Road_And_Trees_Nikon_1.jpg",
+            "alt": "Road And Trees"
+        }
+    ]
+}
