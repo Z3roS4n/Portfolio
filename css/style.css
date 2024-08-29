@@ -45,6 +45,8 @@ body {
     display: none;
 }
 
+
+
 /*TEMPORARY*/
 
 .workingProgress {
@@ -287,7 +289,7 @@ footer {
     background: var(--clr-neutral-a0);
     color: var(--clr-primary-a0-a0);
     box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 35px 35px 0 0 ;
+    border-radius: 35px 35px 0 0;
 }
 
 footer section {
