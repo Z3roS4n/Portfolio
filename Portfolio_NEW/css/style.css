@@ -26,6 +26,8 @@
     --clr-neutral-a30:  #5e5e5e;
     --clr-neutral-a40:  #303030;
     --clr-neutral-a50:  #000000;
+
+    overflow-x: hidden;
 }
 
 body {
@@ -383,6 +385,7 @@ section#photo .gallery-element img {
         padding: 1rem 2rem;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         border-radius: 35px;
+        overflow-x: hidden;
     }
 
     header nav {
