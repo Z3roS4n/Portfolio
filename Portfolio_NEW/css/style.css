@@ -38,7 +38,7 @@ body {
     color: var(--clr-neutral-a40);
     background: var(--clr-neutral-a0);
     margin: 0 auto;
-    overflow-x: hidden;
+    overflow-x:auto;
 }
 
 .iub__us-widget {
