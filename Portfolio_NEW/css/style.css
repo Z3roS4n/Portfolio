@@ -355,9 +355,8 @@ section#photo .container .gallery {
 }
 
 section#photo .gallery-element {
-    width: 22%;
+    width: 20em;
     margin: 1rem;
-    max-height: 20em;
     padding: 0.5em;
     border-radius: 15px;
     box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.1);
@@ -368,12 +367,9 @@ section#photo .gallery-element img {
     /*Per mantenere l'aspect ratio*/
     object-fit: cover;
     object-position: center;
-    height: 50%;
-    width: 100%;
     max-height: 100%;
     max-width: 100%;
     border-radius: 15px 15px 15px 15px;
-
 }
 
 /* MOBILE */
@@ -596,7 +592,7 @@ section#photo .gallery-element img {
     }
 
     section#photo .gallery-element {
-        width: 100%;
+        width: 20em;
         margin: 1rem;
         padding: 0.5em;
         border-radius: 15px;
@@ -605,7 +601,11 @@ section#photo .gallery-element img {
     }
 
     section#photo .gallery-element img {
-        width: 100%;
+        /*Per mantenere l'aspect ratio*/
+        object-fit: cover;
+        object-position: center;
+        max-height: 100%;
+        max-width: 100%;
         border-radius: 15px 15px 15px 15px;
     }
 }
