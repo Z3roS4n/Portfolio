@@ -41,6 +41,9 @@ body {
     overflow-x: hidden;
 }
 
+.iub__us-widget {
+    display: none;
+}
 
 /*TEMPORARY*/
 
