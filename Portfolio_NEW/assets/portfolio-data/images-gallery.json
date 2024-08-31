@@ -1,3 +1,5 @@
+
+
 {
     "gallery": [
         {
@@ -9,10 +11,10 @@
         },
         { 
             "id": 2,
-            "title": "Petralia Soprana",
-            "description": "Foto di Petralia Soprana scattata con una Nikon D800 + 24-70mm F2.8.",
-            "image": "./assets/images/PetraliaSoprana_1_Nikon.jpg",
-            "alt": "Petralia Soprana"
+            "title": "Modellino Ape P50",
+            "description": "Foto di un modellino di Ape P50 scattata con una Nikon D800 + 24-70mm F2.8.",
+            "image": "./assets/images/Ape_P50_1_Nikon.jpg",
+            "alt": "Ape P50"
         },
         { 
             "id": 3,
@@ -37,17 +39,17 @@
         },
         { 
             "id": 6,
-            "title": "Fiore",
+            "title": "Rosa del Tè",
             "description": "Foto di un fiore scattata nel mio giardino con una Sony A6000.",
             "image": "./assets/images/Flower_1_Sony.jpg",
-            "alt": "Flower"
+            "alt": "Tea Rose"
         },
         { 
             "id": 7,
-            "title": "Fiore",
+            "title": "Geranio Scarlatto",
             "description": "Foto di un fiore scattata nel mio giardino con una Sony A6000.",
             "image": "./assets/images/Flower_2_Sony.jpg",
-            "alt": "Flower"
+            "alt": "Scarlet Geranium"
         },
         { 
             "id": 8,
@@ -61,7 +63,7 @@
             "title": "Vicolo Fiorito",
             "description": "Foto di un vicolo fiorito scattata a Petralia Soprana con una Nikon D800 + 24-70mm F2.8.",
             "image": "./assets/images/PetraliaFlower_1_Nikon.jpg",
-            "alt": "Flower"
+            "alt": "Flower Alley"
         },
         { 
             "id": 10,
@@ -69,6 +71,20 @@
             "description": "Foto di un tramonto scattata con una Nikon D800 + 24-70mm F2.8.",
             "image": "./assets/images/Sunset_1_Nikon.jpg",
             "alt": "Sunset"
+        },
+        { 
+            "id": 11,
+            "title": "Petralia Soprana",
+            "description": "Foto di Petralia Soprana scattata con una Nikon D800 + 24-70mm F2.8.",
+            "image": "./assets/images/PetraliaSoprana_1_Nikon.jpg",
+            "alt": "Petralia Soprana"
+        },
+        { 
+            "id": 12,
+            "title": "Alba a Giacalone",
+            "description": "Foto di un alba scattata a Giacalone con una Nikon D800 + 24-70mm F2.8.",
+            "image": "./assets/images/Sunrise_Giacalone_1_Nikon.jpg",
+            "alt": "Sunrise"
         }
     ]
 }
