@@ -46,7 +46,9 @@ class LoadPortfolio {
     }
 
     loadGallery(element, images) {
-        images.forEach(image => {
+
+        for (let i = 0; i < (images.length > 10 ? 10 : images.length); i++) {
+            const image = images[i];
             const galleryElement = document.createElement('div');
             galleryElement.classList.add('gallery-element');
             galleryElement.id = `elem-${image.id}`;
@@ -60,7 +62,15 @@ class LoadPortfolio {
                 </p>
             `;
             element.appendChild(galleryElement);
-        });
+            if(i == 9) {
+                const galleryElement = document.createElement('div');
+                galleryElement.classList.add('gallery-expand-btn-div');
+                galleryElement.innerHTML = `
+                    <span class="gallery-expand-button" id="g-expand">Mostra di più</span>
+                `;
+                element.appendChild(galleryElement);
+            }
+        }
     }
 }
 

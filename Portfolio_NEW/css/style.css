@@ -372,6 +372,22 @@ section#photo .gallery-element img {
     border-radius: 15px 15px 15px 15px;
 }
 
+section#photo .gallery-expand-btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+section#photo .gallery-expand-button {
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    background: var(--clr-primary-a0);
+    color: var(--clr-neutral-a0);
+    font-weight: 700;
+    text-decoration: none;
+}
+
 /* MOBILE */
 
 @media screen and (max-width: 768px) {
