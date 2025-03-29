@@ -102,6 +102,12 @@ li a {
     font-weight: 700;
 }
 
+.link {
+    color: var(--clr-neutral-a40);
+    text-decoration: none;
+    font-weight: 700;
+}
+
 li a:hover {
     color: var(--clr-primary-a0);
 }

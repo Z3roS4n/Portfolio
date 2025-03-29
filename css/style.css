@@ -280,6 +280,11 @@ section#skills .container .skill {
         margin-right: 1em;
     }
 }
+.link {
+    color: var(--clr-primary-a0);
+    text-decoration: none;
+    font-weight: 700;
+}
 
 footer {
     display: flex;
