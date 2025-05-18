@@ -286,6 +286,12 @@ section#skills .container .skill {
     font-weight: 700;
 }
 
+.link:active {
+    color: var(--clr-primary-a0);
+    text-decoration: none;
+    font-weight: 700;
+}
+
 footer {
     display: flex;
     justify-content: center;
