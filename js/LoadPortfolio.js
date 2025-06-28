@@ -46,7 +46,8 @@ class LoadPortfolio {
     }
 
     loadGallery(element, images) {
-        images.forEach(image => {
+        for (let index = 0; index < images.length; index++) {
+            const image = images[index];
             const galleryElement = document.createElement('div');
             galleryElement.classList.add('gallery-element');
             galleryElement.id = `elem-${image.id}`;
@@ -60,7 +61,7 @@ class LoadPortfolio {
                 </p>
             `;
             element.appendChild(galleryElement);
-        });
+        }
     }
 }
 
